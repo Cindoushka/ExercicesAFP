@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8746C7F32B67AEBD00E70392 /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8746C7F22B67AEBD00E70392 /* NavigationButton.swift */; };
+		874B561E2B1DF99A00D621AD /* WeatherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B561D2B1DF99A00D621AD /* WeatherList.swift */; };
+		874B56202B1DF9A500D621AD /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B561F2B1DF9A500D621AD /* Models.swift */; };
+		874B56222B1DF9D500D621AD /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B56212B1DF9D500D621AD /* DataBase.swift */; };
+		874B56242B1DFB9100D621AD /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B56232B1DFB9100D621AD /* WeatherRow.swift */; };
+		874B56262B1DFDA600D621AD /* WeatherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B56252B1DFDA600D621AD /* WeatherDetails.swift */; };
+		874B56282B1E055500D621AD /* HeartbeatsSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B56272B1E055500D621AD /* HeartbeatsSource.swift */; };
+		875058922B1F2147000E5103 /* VueDetailModale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875058912B1F2147000E5103 /* VueDetailModale.swift */; };
+		875058942B1F4DEF000E5103 /* CalendarCellule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875058932B1F4DEF000E5103 /* CalendarCellule.swift */; };
+		875058962B1F4DFB000E5103 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875058952B1F4DFB000E5103 /* CalendarView.swift */; };
+		875058982B1F6B94000E5103 /* CalendarChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875058972B1F6B94000E5103 /* CalendarChild.swift */; };
+		875EDB4F2B188D0A00FD1050 /* DemoIntroSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB4E2B188D0A00FD1050 /* DemoIntroSwiftUIApp.swift */; };
+		875EDB512B188D0A00FD1050 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB502B188D0A00FD1050 /* ContentView.swift */; };
+		875EDB532B188D0C00FD1050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875EDB522B188D0C00FD1050 /* Assets.xcassets */; };
+		875EDB562B188D0C00FD1050 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875EDB552B188D0C00FD1050 /* Preview Assets.xcassets */; };
+		875EDB5D2B18B16600FD1050 /* Heartbeats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB5C2B18B16600FD1050 /* Heartbeats.swift */; };
+		875EDB5F2B18E07900FD1050 /* RGBsliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB5E2B18E07900FD1050 /* RGBsliders.swift */; };
+		875EDB612B18E30200FD1050 /* SelectionCardColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB602B18E30200FD1050 /* SelectionCardColor.swift */; };
+		875EDB632B19004400FD1050 /* ScreenColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB622B19004400FD1050 /* ScreenColorPicker.swift */; };
+		875EDB652B19025100FD1050 /* TemperatureSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB642B19025100FD1050 /* TemperatureSlider.swift */; };
+		875EDB672B190FA800FD1050 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB662B190FA800FD1050 /* TemperatureConverter.swift */; };
+		875EDB692B19137500FD1050 /* ExtractedViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB682B19137500FD1050 /* ExtractedViewList.swift */; };
+		875EDB6B2B19146B00FD1050 /* ListWithExtracted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB6A2B19146B00FD1050 /* ListWithExtracted.swift */; };
+		875EDB6D2B1915FF00FD1050 /* ButtonChangeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB6C2B1915FF00FD1050 /* ButtonChangeColors.swift */; };
+		875EDB6F2B19161E00FD1050 /* ButtonExtracted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875EDB6E2B19161E00FD1050 /* ButtonExtracted.swift */; };
+		87C537252B19CB8100FD7DF5 /* RGBSlidersBis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C537242B19CB8100FD7DF5 /* RGBSlidersBis.swift */; };
+		87C537272B1A33A100FD7DF5 /* ButtonsForCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C537262B1A33A100FD7DF5 /* ButtonsForCards.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8746C7F22B67AEBD00E70392 /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		874B561D2B1DF99A00D621AD /* WeatherList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherList.swift; sourceTree = "<group>"; };
+		874B561F2B1DF9A500D621AD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		874B56212B1DF9D500D621AD /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		874B56232B1DFB9100D621AD /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		874B56252B1DFDA600D621AD /* WeatherDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetails.swift; sourceTree = "<group>"; };
+		874B56272B1E055500D621AD /* HeartbeatsSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatsSource.swift; sourceTree = "<group>"; };
+		875058912B1F2147000E5103 /* VueDetailModale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueDetailModale.swift; sourceTree = "<group>"; };
+		875058932B1F4DEF000E5103 /* CalendarCellule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCellule.swift; sourceTree = "<group>"; };
+		875058952B1F4DFB000E5103 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		875058972B1F6B94000E5103 /* CalendarChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarChild.swift; sourceTree = "<group>"; };
+		875EDB4B2B188D0A00FD1050 /* DemoIntroSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoIntroSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		875EDB4E2B188D0A00FD1050 /* DemoIntroSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoIntroSwiftUIApp.swift; sourceTree = "<group>"; };
+		875EDB502B188D0A00FD1050 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		875EDB522B188D0C00FD1050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		875EDB552B188D0C00FD1050 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		875EDB5C2B18B16600FD1050 /* Heartbeats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heartbeats.swift; sourceTree = "<group>"; };
+		875EDB5E2B18E07900FD1050 /* RGBsliders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBsliders.swift; sourceTree = "<group>"; };
+		875EDB602B18E30200FD1050 /* SelectionCardColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCardColor.swift; sourceTree = "<group>"; };
+		875EDB622B19004400FD1050 /* ScreenColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenColorPicker.swift; sourceTree = "<group>"; };
+		875EDB642B19025100FD1050 /* TemperatureSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSlider.swift; sourceTree = "<group>"; };
+		875EDB662B190FA800FD1050 /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
+		875EDB682B19137500FD1050 /* ExtractedViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedViewList.swift; sourceTree = "<group>"; };
+		875EDB6A2B19146B00FD1050 /* ListWithExtracted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithExtracted.swift; sourceTree = "<group>"; };
+		875EDB6C2B1915FF00FD1050 /* ButtonChangeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonChangeColors.swift; sourceTree = "<group>"; };
+		875EDB6E2B19161E00FD1050 /* ButtonExtracted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtracted.swift; sourceTree = "<group>"; };
+		87C537242B19CB8100FD7DF5 /* RGBSlidersBis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBSlidersBis.swift; sourceTree = "<group>"; };
+		87C537262B1A33A100FD7DF5 /* ButtonsForCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsForCards.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		875EDB482B188D0A00FD1050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		875EDB422B188D0A00FD1050 = {
+			isa = PBXGroup;
+			children = (
+				874B561F2B1DF9A500D621AD /* Models.swift */,
+				874B56212B1DF9D500D621AD /* DataBase.swift */,
+				875EDB4D2B188D0A00FD1050 /* DemoIntroSwiftUI */,
+				875EDB4C2B188D0A00FD1050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		875EDB4C2B188D0A00FD1050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				875EDB4B2B188D0A00FD1050 /* DemoIntroSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		875EDB4D2B188D0A00FD1050 /* DemoIntroSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				875EDB622B19004400FD1050 /* ScreenColorPicker.swift */,
+				875EDB4E2B188D0A00FD1050 /* DemoIntroSwiftUIApp.swift */,
+				875EDB502B188D0A00FD1050 /* ContentView.swift */,
+				874B56272B1E055500D621AD /* HeartbeatsSource.swift */,
+				875EDB5C2B18B16600FD1050 /* Heartbeats.swift */,
+				875EDB5E2B18E07900FD1050 /* RGBsliders.swift */,
+				87C537242B19CB8100FD7DF5 /* RGBSlidersBis.swift */,
+				87C537262B1A33A100FD7DF5 /* ButtonsForCards.swift */,
+				875EDB602B18E30200FD1050 /* SelectionCardColor.swift */,
+				875EDB642B19025100FD1050 /* TemperatureSlider.swift */,
+				875EDB662B190FA800FD1050 /* TemperatureConverter.swift */,
+				875EDB682B19137500FD1050 /* ExtractedViewList.swift */,
+				875EDB6A2B19146B00FD1050 /* ListWithExtracted.swift */,
+				875EDB6E2B19161E00FD1050 /* ButtonExtracted.swift */,
+				875EDB6C2B1915FF00FD1050 /* ButtonChangeColors.swift */,
+				874B56232B1DFB9100D621AD /* WeatherRow.swift */,
+				874B561D2B1DF99A00D621AD /* WeatherList.swift */,
+				874B56252B1DFDA600D621AD /* WeatherDetails.swift */,
+				875058912B1F2147000E5103 /* VueDetailModale.swift */,
+				875058932B1F4DEF000E5103 /* CalendarCellule.swift */,
+				875058952B1F4DFB000E5103 /* CalendarView.swift */,
+				875058972B1F6B94000E5103 /* CalendarChild.swift */,
+				8746C7F22B67AEBD00E70392 /* NavigationButton.swift */,
+				875EDB522B188D0C00FD1050 /* Assets.xcassets */,
+				875EDB542B188D0C00FD1050 /* Preview Content */,
+			);
+			path = DemoIntroSwiftUI;
+			sourceTree = "<group>";
+		};
+		875EDB542B188D0C00FD1050 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				875EDB552B188D0C00FD1050 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		875EDB4A2B188D0A00FD1050 /* DemoIntroSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875EDB592B188D0C00FD1050 /* Build configuration list for PBXNativeTarget "DemoIntroSwiftUI" */;
+			buildPhases = (
+				875EDB472B188D0A00FD1050 /* Sources */,
+				875EDB482B188D0A00FD1050 /* Frameworks */,
+				875EDB492B188D0A00FD1050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoIntroSwiftUI;
+			productName = DemoIntroSwiftUI;
+			productReference = 875EDB4B2B188D0A00FD1050 /* DemoIntroSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		875EDB432B188D0A00FD1050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					875EDB4A2B188D0A00FD1050 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 875EDB462B188D0A00FD1050 /* Build configuration list for PBXProject "DemoIntroSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 875EDB422B188D0A00FD1050;
+			productRefGroup = 875EDB4C2B188D0A00FD1050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				875EDB4A2B188D0A00FD1050 /* DemoIntroSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		875EDB492B188D0A00FD1050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875EDB562B188D0C00FD1050 /* Preview Assets.xcassets in Resources */,
+				875EDB532B188D0C00FD1050 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		875EDB472B188D0A00FD1050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C537252B19CB8100FD7DF5 /* RGBSlidersBis.swift in Sources */,
+				875EDB692B19137500FD1050 /* ExtractedViewList.swift in Sources */,
+				875058962B1F4DFB000E5103 /* CalendarView.swift in Sources */,
+				875058942B1F4DEF000E5103 /* CalendarCellule.swift in Sources */,
+				875058982B1F6B94000E5103 /* CalendarChild.swift in Sources */,
+				875EDB612B18E30200FD1050 /* SelectionCardColor.swift in Sources */,
+				875058922B1F2147000E5103 /* VueDetailModale.swift in Sources */,
+				874B56242B1DFB9100D621AD /* WeatherRow.swift in Sources */,
+				8746C7F32B67AEBD00E70392 /* NavigationButton.swift in Sources */,
+				875EDB6B2B19146B00FD1050 /* ListWithExtracted.swift in Sources */,
+				874B56222B1DF9D500D621AD /* DataBase.swift in Sources */,
+				875EDB632B19004400FD1050 /* ScreenColorPicker.swift in Sources */,
+				875EDB5F2B18E07900FD1050 /* RGBsliders.swift in Sources */,
+				875EDB672B190FA800FD1050 /* TemperatureConverter.swift in Sources */,
+				875EDB6D2B1915FF00FD1050 /* ButtonChangeColors.swift in Sources */,
+				875EDB5D2B18B16600FD1050 /* Heartbeats.swift in Sources */,
+				87C537272B1A33A100FD7DF5 /* ButtonsForCards.swift in Sources */,
+				874B56262B1DFDA600D621AD /* WeatherDetails.swift in Sources */,
+				874B56282B1E055500D621AD /* HeartbeatsSource.swift in Sources */,
+				875EDB6F2B19161E00FD1050 /* ButtonExtracted.swift in Sources */,
+				874B56202B1DF9A500D621AD /* Models.swift in Sources */,
+				874B561E2B1DF99A00D621AD /* WeatherList.swift in Sources */,
+				875EDB512B188D0A00FD1050 /* ContentView.swift in Sources */,
+				875EDB4F2B188D0A00FD1050 /* DemoIntroSwiftUIApp.swift in Sources */,
+				875EDB652B19025100FD1050 /* TemperatureSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		875EDB572B188D0C00FD1050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		875EDB582B188D0C00FD1050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		875EDB5A2B188D0C00FD1050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoIntroSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = CJCGG2B2V5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acciodev.DemoIntroSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		875EDB5B2B188D0C00FD1050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoIntroSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = CJCGG2B2V5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acciodev.DemoIntroSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		875EDB462B188D0A00FD1050 /* Build configuration list for PBXProject "DemoIntroSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875EDB572B188D0C00FD1050 /* Debug */,
+				875EDB582B188D0C00FD1050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875EDB592B188D0C00FD1050 /* Build configuration list for PBXNativeTarget "DemoIntroSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875EDB5A2B188D0C00FD1050 /* Debug */,
+				875EDB5B2B188D0C00FD1050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 875EDB432B188D0A00FD1050 /* Project object */;
+}
